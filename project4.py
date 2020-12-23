@@ -9,8 +9,6 @@ Created on Thu Dec 10 01:04:23 2020
 #########################################################
 #   Name: Elias Zarate
 #   Date: 12/10/2020
-#   Project 4 option 3 
-#   Final Exam 10% option 
 #   
 #########################################################
 
@@ -97,7 +95,7 @@ def evaluate_model():
     print('Test accuracy:', score[1])
 
     
-#create_model()
+create_model()
 evaluate_model()
 
 model = load_model("test_model.h5")
